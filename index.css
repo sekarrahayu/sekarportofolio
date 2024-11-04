@@ -1,0 +1,91 @@
+.imgtop{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 0px 0px 30px 30px;
+}
+.wrapcard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    padding: 50px;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.littlesquare{
+    background-color: rgb(229, 195, 171);
+    height: 30px;
+    width: 175px;
+    text-align: center;
+    border-radius: 5px;
+    margin-block: 10px;
+    color: rgb(135, 102, 78);
+    border: 2px solid rgb(135, 102, 78);
+}
+.wraptext{
+    width: 100%;
+    padding-inline: 30px;
+}
+.wrap{
+    margin-top: 5%;
+    margin-left: 25px;
+}
+.textskill{
+    margin-left: 25px;
+}
+.wrap1{
+    margin-top: 15px;
+    padding: 25px;
+
+}
+.proses1{
+    border: 2px solid black;
+}
+.textskill{
+    margin-left: 10px;
+    margin-top: 5%;
+}
+.wrapsecond{
+    margin-top: -80px;
+}
+.containerskills{
+    width: 100%;
+    padding: 25px;
+}
+
+@keyframes gerak {
+    0%   {width: 0%;}
+    100% {width: 60%;}
+  }
+
+.animation1{
+    animation-name: gerak;
+    animation-duration: 13s;
+}
+@keyframes gerak1 {
+    0%   {width: 0%;}
+    100% {width: 60%;}
+  }
+.animation2{
+    animation-name: gerak1;
+    animation-duration: 13s;
+}
+@keyframes gerak2 {
+    0%   {width: 0%;}
+    100% {width: 80%;}
+  }
+.animation3{
+    animation-name: gerak2;
+    animation-duration: 13s;
+}
+@keyframes gerak3 {
+    0%   {width: 0%;}
+    100% {width: 70%;}
+  }
+.animation4{
+    animation-name: gerak3;
+    animation-duration: 13s;
+}
