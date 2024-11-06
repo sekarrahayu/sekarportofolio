@@ -78,12 +78,14 @@
 }
 .containercard{
     background-color: rgb(135, 102, 78);
+    color: white;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
     margin-top: -5px;
+    text-align: center;
 }
 .button{
     background-color: rgb(178, 152, 136);
@@ -94,6 +96,20 @@
 .wrapdropdown{
     display: flex;
     justify-content: center;
+}
+.almostlasttext{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.lasttext{
+    margin-block: 30px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.lastimg{
+    margin-bottom: -120px;
 }
 
 @keyframes gerak {
