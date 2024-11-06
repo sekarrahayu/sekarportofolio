@@ -59,9 +59,9 @@
     background-color: rgb(135, 102, 78);
     width: 100%;
     height: 110px;
-    padding-inline: 90px;
-    padding-block: 0px;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .squareporto{
     background-color: rgb(255, 255, 255);
@@ -111,6 +111,17 @@
 .lastimg{
     margin-bottom: -120px;
 }
+.containerbottom{
+    background-color: rgb(135, 102, 78);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -5px;
+    text-align: center;
+}
 
 @keyframes gerak {
     0%   {width: 0%;}
@@ -144,4 +155,25 @@
 .animation4{
     animation-name: gerak3;
     animation-duration: 13s;
+}
+
+@media (min-width: 768px) {
+    .squareporto{
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .wraptext{
+        width: 100%;
+        padding-inline: 70px;
+    }
+    .containerskills {
+        padding: 70px;
+        margin-top: -80px;
+    }
+    .containercard{
+        flex-direction: row;
+        display: flex;
+        gap: 15px;
+    }
 }
