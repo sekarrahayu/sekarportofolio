@@ -129,6 +129,9 @@
 .tittle:hover{
     color: rgb(135, 102, 78);
 }
+.logo:hover{
+    cursor: pointer;
+}
 
 @keyframes gerak {
     0%   {width: 0%;}
