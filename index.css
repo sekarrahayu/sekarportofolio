@@ -122,6 +122,13 @@
     margin-top: -5px;
     text-align: center;
 }
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.tittle:hover{
+    color: rgb(135, 102, 78);
+}
 
 @keyframes gerak {
     0%   {width: 0%;}
