@@ -1,17 +1,30 @@
 body{
-    background: linear-gradient(rgb(194, 127, 64), white);
+    background: linear-gradient(rgb(132, 99, 88), rgb(234, 221, 215));
 }
 .wraptittle{
     text-align: center; 
     padding-block: 70px;
-    color: white;
 }
 .wrapcard{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     padding-block: 50px;
     padding-inline: 50px;
+}
+.card{
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.5);
+}
+.card-body{
+    padding-block: 20px;
+}
+.bordercol{
+    border: 1px solid black;
+    color: rgb(132, 99, 88);
+}
+.bordercol:hover{
+    background-color: rgb(132, 99, 88);
+    color: white;
 }
 
 @media (max-width: 350px) {
