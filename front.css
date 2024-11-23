@@ -1,15 +1,11 @@
 body{
     background: linear-gradient(rgb(132, 99, 88), rgb(234, 221, 215));
 }
-.wraptittle{
-    text-align: center; 
-    padding-block: 70px;
-}
 .wrapcard{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-block: 50px;
+    padding-block: 10px;
     padding-inline: 50px;
 }
 .card{
@@ -31,10 +27,6 @@ body{
     .wrapcard{
         padding-inline: 100px;
         padding-top: 10px;
-    }
-    .wraptittle{
-        text-align: center; 
-        padding-block: 50px;
     }
 }
 
