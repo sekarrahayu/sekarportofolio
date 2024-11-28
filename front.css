@@ -5,7 +5,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-block: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     padding-inline: 50px;
 }
 .card{

@@ -144,7 +144,7 @@
 }
 @keyframes gerak1 {
     0%   {width: 0%;}
-    100% {width: 60%;}
+    100% {width: 70%;}
   }
 .animation2{
     animation-name: gerak1;
@@ -160,7 +160,7 @@
 }
 @keyframes gerak3 {
     0%   {width: 0%;}
-    100% {width: 70%;}
+    100% {width: 60%;}
   }
 .animation4{
     animation-name: gerak3;
